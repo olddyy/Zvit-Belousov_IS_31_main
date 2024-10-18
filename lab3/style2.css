@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.layout-table {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+}
+
+.layout-table td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header input {
+    width: 90%;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.header, .footer {
+    background-color: yellow;
+    height: 50px;
+}
+
+.sidebar {
+    background-color: blue;
+    color: white;
+    width: 20%;
+    min-width: 150px;
+}
+
+.top {
+    background-color: red;
+    color: white;
+    height: 100px;
+}
+
+.content {
+    background-color: white;
+    height: 300px;
+}
+
+.right-sidebar {
+    background-color: blue;
+    color: white;
+    width: 20%;
+    min-width: 150px;
+}
+
+.bottom {
+    background-color: red;
+    color: white;
+    height: 50px;
+}
+
+.nested-table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}

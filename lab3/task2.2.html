@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гумова таблична верстка</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <table class="layout-table">
+        <tr>
+            <td colspan="2" class="header">
+                <input type="text" placeholder="Search...">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="sidebar">2</td>
+            <td class="top">1</td>
+        </tr>
+        <tr>
+            <td>
+                <table class="nested-table">
+                    <tr>
+                        <td class="content">3</td>
+                        <td rowspan="2" class="right-sidebar">4</td>
+                    </tr>
+                    <tr>
+                        <td class="bottom">5</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="footer">5</td>
+        </tr>
+    </table>
+</body>
+</html>

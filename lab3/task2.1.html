@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фіксована таблична верстка</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2" class="yellow header">
+                <input type="text" placeholder="Search...">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="blue sidebar">2</td>
+            <td class="red top">1</td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td class="content white">3</td>
+                        <td rowspan="2" class="blue right-sidebar">4</td>
+                    </tr>
+                    <tr>
+                        <td class="red bottom">5</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="yellow footer">5</td>
+        </tr>
+    </table>
+</body>
+</html>
